@@ -1,0 +1,6 @@
+print("Welcome to the YouTube Channel Name Generator!")
+name = input("What is your name? \n")
+about = input("What is your channel about? \n")
+subscriber = input("What is your subscriber goal? \n")
+print("Generating your YouTube channel name...")
+print(("(" + (name) + (" with ") + (about) + (" - ") + (subscriber)) + ")")
